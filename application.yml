@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:./data/sync-client.db
+    driver-class-name: org.sqlite.JDBC
+
+docnuvem:
+  api-base-url: "http://localhost:8083/api"
+  instancia: "exemplo.localhost"
+  token: "OHOKc58WavlJZHBf7SxUk4h6M2Fv2lMtlzs1gWNb8k22Uc6OuTHB2jRLt1Mh63ddRBSTaviNxvxu6LKS7MnRlFI1K1Pkq2Ei2U3WV8p6D1BleHsDEUJgS11HItyzD22rh02DOEWgnS7OkFozo46EfJuSdYYKMuzOzaLG5rXYqzn7vK6Lo8DxRyQSSLPx5JK7YYZp2QBug5huX6qvAdhPyKNVctWCR6wyLIouZxwincezNNw4QgsfHnaoRwVabmB8"
+  diretorio-raiz-id: 1
+  pasta-local-raiz: "D:/DocnuvemSync"
+  polling-segundos: 30
+  download-timeout-segundos: 120
+  upload-timeout-segundos: 300
+
+logging:
+  level:
+    root: INFO
