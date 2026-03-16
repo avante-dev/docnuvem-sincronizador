@@ -1,4 +1,4 @@
-package br.com.docnuvem;
+package br.com.docnuvem.syncclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
